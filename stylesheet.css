@@ -1,0 +1,19 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background: #f1f1f1;;
+}
+
+/*Header/Blog title */
+.header {
+    padding: 30px;
+    font-size: large;
+    text-align: center;
+    background: chocolate;
+}
+/* Create two unequal columns that float next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
