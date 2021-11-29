@@ -1,57 +1,64 @@
 body {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial;
     padding: 20px;
-    background: #f1f1f1;;
-}
-
-/*Header/Blog title */
-.header {
+    background: #f1f1f1;
+  }
+  
+  /* Header/Blog Title */
+  .header {
     padding: 30px;
-    font-size: large;
+    font-size: 40px;
     text-align: center;
-    background: chocolate;
-}
-/* Create two unequal columns that float next to each other */
-/* Left column */
-.leftcolumn {
+    background: white;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
     float: left;
     width: 75%;
-}
-/* Right column */
-.rightcolumn {
+  }
+  
+  /* Right column */
+  .rightcolumn {
     float: left;
     width: 25%;
     padding-left: 20px;
-}
-/* fake image */
-.fakeimg {
+  }
+  
+  /* Fake image */
+  .fakeimg {
     background-color: #aaa;
     width: 100%;
     padding: 20px;
-}
-/* Add a card effect for the article */
-.card {
+  }
+  
+  /* Add a card effect for articles */
+  .card {
     background-color: white;
     padding: 20px;
     margin-top: 20px;
-}
-/*Clear floats after the columns */
-.row::after {
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
     content: "";
     display: table;
     clear: both;
-}
-/* Footer */
-.footer {
+  }
+  
+  /* Footer */
+  .footer {
     padding: 20px;
     text-align: center;
     background: #ddd;
     margin-top: 20px;
-}
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-    .leftcolumn .rightcolumn {
-        width: 100%;
-        padding: 0%;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
     }
-}
+  }
